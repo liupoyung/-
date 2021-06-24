@@ -1,31 +1,5 @@
 % Simple calculator for understanding of GUI
 function varargout = calculator_2(varargin)
-% CALCULATOR_2 MATLAB code for calculator_2.fig
-%      CALCULATOR_2, by itself, creates a new CALCULATOR_2 or raises the existing
-%      singleton*.
-%
-%      H = CALCULATOR_2 returns the handle to a new CALCULATOR_2 or the handle to
-%      the existing singleton*.
-%
-%      CALCULATOR_2('CALLBACK',hObject,eventData,handles,...) calls the local
-%      function named CALLBACK in CALCULATOR_2.M with the given input arguments.
-%
-%      CALCULATOR_2('Property','Value',...) creates a new CALCULATOR_2 or raises the
-%      existing singleton*.  Starting from the left, property value pairs are
-%      applied to the GUI before calculator_2_OpeningFcn gets called.  An
-%      unrecognized property name or invalid value makes property application
-%      stop.  All inputs are passed to calculator_2_OpeningFcn via varargin.
-%
-%      *See GUI Options on GUIDE's Tools menu.  Choose "GUI allows only one
-%      instance to run (singleton)".
-%
-% See also: GUIDE, GUIDATA, GUIHANDLES
-
-% Edit the above text to modify the response to help calculator_2
-
-% Last Modified by GUIDE v2.5 05-Jan-2021 11:52:37
-
-% Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
 gui_State = struct('gui_Name',       mfilename, ...
                    'gui_Singleton',  gui_Singleton, ...
